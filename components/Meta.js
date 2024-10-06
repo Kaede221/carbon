@@ -44,7 +44,7 @@ export const CodeMirrorLink = () => (
 
 const title = 'Carbon'
 const description =
-  'Carbon is the easiest way to create and share beautiful images of your source code.'
+  'Carbon 是创建和共享源代码的精美图像的最简单方法。'
 export const MetaTags = React.memo(() => (
   <Head>
     <meta charSet="utf-8" />
@@ -61,7 +61,7 @@ export const MetaTags = React.memo(() => (
     <meta name="og:image" content="/static/brand/banner.png" />
     <meta name="theme-color" content={COLORS.BLACK} />
     <meta name="apple-mobile-web-app-status-bar-style" content={COLORS.BLACK} />
-    <title>{title} | Create and share beautiful images of your source code</title>
+    <title>{title} | 创建, 共享源代码的精美图像</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="manifest" href="/manifest.json" />
     <link rel="apple-touch-icon" href="/static/brand/apple-touch-icon.png" />
